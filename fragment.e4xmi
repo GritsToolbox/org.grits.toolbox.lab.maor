@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_eM9vsJyGEeaQyJVS-36HMg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__H0BQAtBEeeg3JSX-aIFYw" featurename="children" parentElementId="org.grits.toolbox.entry.ms.menu.massspec">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_S7sbcAtCEeeg3JSX-aIFYw" elementId="org.grits.toolbox.collaborators.maor.handledmenuitem.export" label="Export Maor Lab Report" command="_mfUzIAtCEeeg3JSX-aIFYw"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_jzqeIAtCEeeg3JSX-aIFYw" featurename="commands" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Command" xmi:id="_mfUzIAtCEeeg3JSX-aIFYw" elementId="org.grits.toolbox.collaborators.maor.command.export" commandName="Export"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_xercoAtCEeeg3JSX-aIFYw" featurename="handlers" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Handler" xmi:id="_yYv4MAtCEeeg3JSX-aIFYw" elementId="org.grits.toolbox.collaborators.maor.handler.0" contributionURI="bundleclass://org.grits.toolbox.lab.maor/org.grits.toolbox.collaborators.maor.handler.MaorMSExportCommand" command="_mfUzIAtCEeeg3JSX-aIFYw"/>
+  </fragments>
+</fragment:ModelFragments>
